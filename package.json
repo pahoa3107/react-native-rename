@@ -1,5 +1,5 @@
 {
-  "name": "react-native-rename",
+  "name": "hoapa-code-generator",
   "version": "2.8.1",
   "description": "Rename react-native app with just one command",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
     "relink": "npm unlink && npm run prepublish && npm link",
     "format": "prettier --write '**/*.{js,jsx}'",
     "lint": "eslint '**/*.{js,jsx}'",
-    "react-native-rename": "babel-node src/index.js",
+    "hoapa-code-generator": "babel-node src/index.js",
     "precommit": "lint-staged"
   },
   "lint-staged": {
@@ -35,7 +35,7 @@
   "author": "June Domingo <junedomingo@gmail.com>",
   "license": "MIT",
   "bin": {
-    "react-native-rename": "lib/index.js"
+    "hoapa-code-generator": "lib/index.js"
   },
   "bugs": {
     "url": "https://github.com/junedomingo/react-native-rename/issues"
