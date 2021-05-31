@@ -1,5 +1,5 @@
 {
-  "name": "hoapa-code-generator",
+  "name": "hachito-code-generator",
   "version": "2.8.1",
   "description": "Rename react-native app with just one command",
   "main": "lib/index.js",
@@ -35,7 +35,7 @@
   "author": "June Domingo <junedomingo@gmail.com>",
   "license": "MIT",
   "bin": {
-    "hoapa-code-generator": "lib/index.js"
+    "hachito-code-generator": "lib/index.js"
   },
   "bugs": {
     "url": "https://github.com/junedomingo/react-native-rename/issues"
